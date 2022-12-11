@@ -12,6 +12,8 @@ List<IContenutoRiproducibile> Riproduzione = new List<IContenutoRiproducibile>
     new Podcast ("Velocissima chiacchera con Charles Leclerc", "Muschio Selvaggio", 52.36, "Gossip", 12236)
 };
 
+// loop di test
+
 foreach (var contenutodariprodurre in Riproduzione)
 {
     Console.WriteLine(contenutodariprodurre);
